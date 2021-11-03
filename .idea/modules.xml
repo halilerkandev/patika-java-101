@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DaireninAlaniniVeCevresiniBulanProgram/DaireninAlaniniVeCevresiniBulanProgram.iml" filepath="$PROJECT_DIR$/DaireninAlaniniVeCevresiniBulanProgram/DaireninAlaniniVeCevresiniBulanProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/DikUcgendeHipotenusBulanProgram/DikUcgendeHipotenusBulanProgram.iml" filepath="$PROJECT_DIR$/DikUcgendeHipotenusBulanProgram/DikUcgendeHipotenusBulanProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/KDVTutariHesaplayanProgram/KDVTutariHesaplayanProgram.iml" filepath="$PROJECT_DIR$/KDVTutariHesaplayanProgram/KDVTutariHesaplayanProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MerkezAcisiVerilenDaireninAlaniniBulanProgram/MerkezAcisiVerilenDaireninAlaniniBulanProgram.iml" filepath="$PROJECT_DIR$/MerkezAcisiVerilenDaireninAlaniniBulanProgram/MerkezAcisiVerilenDaireninAlaniniBulanProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/NotOrtalamasiHesaplayanProgram/NotOrtalamasiHesaplayanProgram.iml" filepath="$PROJECT_DIR$/NotOrtalamasiHesaplayanProgram/NotOrtalamasiHesaplayanProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/TaksimetreProgrami/TaksimetreProgrami.iml" filepath="$PROJECT_DIR$/TaksimetreProgrami/TaksimetreProgrami.iml" />
       <module fileurl="file://$PROJECT_DIR$/UcKenarUzunluguBilinenUcgeninAlaniniBulanProgram/UcKenarUzunluguBilinenUcgeninAlaniniBulanProgram.iml" filepath="$PROJECT_DIR$/UcKenarUzunluguBilinenUcgeninAlaniniBulanProgram/UcKenarUzunluguBilinenUcgeninAlaniniBulanProgram.iml" />
