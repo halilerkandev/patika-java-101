@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BurcBulanProgram/BurcBulanProgram.iml" filepath="$PROJECT_DIR$/BurcBulanProgram/BurcBulanProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/DaireninAlaniniVeCevresiniBulanProgram/DaireninAlaniniVeCevresiniBulanProgram.iml" filepath="$PROJECT_DIR$/DaireninAlaniniVeCevresiniBulanProgram/DaireninAlaniniVeCevresiniBulanProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/DikUcgendeHipotenusBulanProgram/DikUcgendeHipotenusBulanProgram.iml" filepath="$PROJECT_DIR$/DikUcgendeHipotenusBulanProgram/DikUcgendeHipotenusBulanProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/HavaSicakliginaGoreEtkinlikOnerme/HavaSicakliginaGoreEtkinlikOnerme.iml" filepath="$PROJECT_DIR$/HavaSicakliginaGoreEtkinlikOnerme/HavaSicakliginaGoreEtkinlikOnerme.iml" />
