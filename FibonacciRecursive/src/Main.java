@@ -21,6 +21,6 @@ public class Main {
         }
         while (number <= 0);
 
-        System.out.println(number + ". Fibonacci Sayısı: " + fibonacci(number));
+        System.out.println(number + ". Fibonacci Sayısı: " + fibonacci(number - 1));
     }
 }
