@@ -35,5 +35,12 @@ public class Main {
             }
             System.out.print("\n");
         }
+
+        int[] b = {1, 2, 3};
+        int[] a = Arrays.copyOfRange(b, 0, b.length);
+        for(int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + "  ");
+            System.out.print("\n");
+        }
     }
 }
