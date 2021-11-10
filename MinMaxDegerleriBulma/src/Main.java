@@ -4,29 +4,41 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double min = Double.NEGATIVE_INFINITY, max = Double.POSITIVE_INFINITY, number;
-        int count;
+    static Scanner scanner = new Scanner(System.in);
 
-        do {
-            System.out.print("Kaç tane sayı gireceksiniz: ");
-            count = scanner.nextInt();
-            if(count <= 0) {
-                System.out.println("Hatalı giriş, lütfen pozitif bir tamsayı giriniz!");
-            }
-        }
-        while (count <= 0);
+    public static void main(String[] args) {
+        double min = 0, max = 0, number;
+        int count = getCount();
 
         for(int i = 1; i <= count; i++) {
-            System.out.print(i +". Sayıyı giriniz: ");
-            number = scanner.nextDouble();
-            min = min == Double.NEGATIVE_INFINITY ? number : Math.min(min, number);
-            max = max == Double.POSITIVE_INFINITY ? number : Math.max(max, number);
+            number = getNumber(i +". Sayıyı giriniz: ");
+            if(i == 1) {
+                min = number;
+                max = number;
+            }
+            min = Math.min(number, min);
+            max = Math.max(number, max);
         }
 
-        System.out.println("En büyük sayı: " + max);
-        System.out.println("En küçük sayı: " + min);
+        System.out.println("En küçük sayı: " + max);
+        System.out.println("En büyük sayı: " + min);
+    }
 
+    private static int getCount() {
+        int number;
+        do {
+            System.out.print("Kaç tane sayı gireceksiniz: ");
+            number = scanner.nextInt();
+            if(number <= 0) {
+                System.out.println("Lütfen pozitif bir tamsayı giriniz!");
+            }
+        }
+        while (number <= 0);
+        return number;
+    }
+
+    public static double getNumber(String message) {
+            System.out.print(message);
+            return scanner.nextDouble();
     }
 }
